@@ -26,7 +26,27 @@ import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
 
 @NgModule({
-  declarations: [AppComponent, AccomodationComponent, RoomsComponent, FoodBeverageComponent, RestaurantComponent, BarsComponent, LifestyleComponent, WellnessAndSpaComponent, ResortActivitiesComponent, ExperiencesComponent, ExcursionsComponent, WeddingsComponent, ThaiWeddingsComponent, WesternWeddingsComponent, CelebrationsComponent, OffersComponent, AuthComponent, SigninComponent, SignupComponent],
+  declarations: [
+    AppComponent,
+    AccomodationComponent,
+    RoomsComponent,
+    FoodBeverageComponent,
+    RestaurantComponent,
+    BarsComponent,
+    LifestyleComponent,
+    WellnessAndSpaComponent,
+    ResortActivitiesComponent,
+    ExperiencesComponent,
+    ExcursionsComponent,
+    WeddingsComponent,
+    ThaiWeddingsComponent,
+    WesternWeddingsComponent,
+    CelebrationsComponent,
+    OffersComponent,
+    AuthComponent,
+    SigninComponent,
+    SignupComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
